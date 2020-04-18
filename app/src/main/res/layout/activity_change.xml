@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="40dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ChangeActivity">
+
+    <TextView
+        android:id="@+id/res_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Loding"
+        android:textColor="#22313f"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/res_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Loding"
+        android:textColor="#1f3a93"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/res_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Loding"
+        android:textColor="#4d05e8"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/res_addr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Loding"
+        android:textColor="#5c97bf"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/res_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+
+</LinearLayout>
